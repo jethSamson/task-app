@@ -1,0 +1,43 @@
+/* App.css */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: black;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+#all-tasks{
+  margin: 110px auto;
+  padding: 10px;
+  align-items: center;
+}
+#filter-tasks{
+  margin: 110px;
+  padding: 10px;
+  align-items: center;
+}
